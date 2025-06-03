@@ -4,7 +4,7 @@ import torch
 # Initialize the diarization pipeline using a pretrained model.
 pipeline = Pipeline.from_pretrained(
     "pyannote/speaker-diarization-3.1",
-    use_auth_token="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"
+    use_auth_token="insert_token_here"
 )
 pipeline.to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
 

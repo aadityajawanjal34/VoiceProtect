@@ -4,7 +4,7 @@ import torch
 # Load pipeline
 pipeline = Pipeline.from_pretrained(
     "pyannote/speaker-diarization-3.1",
-    use_auth_token="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"
+    use_auth_token="insert_token_here"
 )
 
 # Send to GPU (optional)
